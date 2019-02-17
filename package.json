@@ -13,8 +13,11 @@
   "jest": {
     "testEnvironment": "node"
   },
-  "dependencies": {},
+  "dependencies": {
+    "array-to-object-keys": "^1.0.21"
+  },
   "devDependencies": {
+    "@absolunet/fsp": "^1.4.0",
     "babel-jest": "^24.1.0",
     "babel-preset-jaid": "^2.11.0",
     "caniuse-lite": "^1.0.30000938",
@@ -24,6 +27,7 @@
     "eslint-config-jaid": "^1.11.1",
     "jest": "^24.1.0",
     "opn-cli": "^4.0.0",
+    "pify": "^4.0.1",
     "rimraf": "^2.6.3",
     "webpack-cli": "^3.2.3",
     "webpack-config-jaid": "^2.5.1"
